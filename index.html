@@ -80,7 +80,7 @@ Promise.all(parts.map(function (name) {
   });
 }).then(function (gd) {
   var cam = gd._fullLayout.scene._scene.camera;
-  cam.zoomSpeed = 0.8;
+  cam.zoomSpeed = 1;
   cam.rotateSpeed = 1.1;
   cam.translateSpeed = 0.85;
 }).catch(function (err) {
